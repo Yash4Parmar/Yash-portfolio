@@ -1,0 +1,383 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 100;
+  /* background: url(./assets/space-7273891.jpg) center center; */
+  /* background-image: linear-gradient(to bottom right, rgb(110, 95, 225), rgb(50, 38, 142), rgb(29, 17, 124), rgb(6, 0, 17)); */
+  /* background-image: linear-gradient(to bottom right, rgb(214, 225, 95), rgb(111, 193, 43), rgb(29, 17, 124), rgb(6, 0, 17)); */
+  background-color: #1B1A17;
+
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 940px;
+  padding: 0 10px;
+}
+
+.centerElements {
+  text-align: center;
+  align-items: center;
+}
+
+.aboutTxt {
+  color: #F0A500;
+}
+
+.aboutTxt h2 {
+  color: #e1b962;
+}
+
+.header {
+  /* background: url(https://content.codecademy.com/projects/innovation-cloud/bg.jpg) no-repeat center center; */
+  background-color: #1B1A17;
+  color: #F0A500;
+  background-size: cover;
+  height: 800px;
+  text-align: center;
+
+  /* fixed background */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header .container {
+  position: relative;
+  top: 200px;
+}
+
+.header h1 {
+  color: #F0A500;
+  line-height: 100px;
+  font-size: 80px;
+  margin-top: 0;
+  margin-bottom: 80px;
+  text-transform: uppercase;
+}
+
+.titleHeader h2 {
+  color: #F0A500;
+  background-color: #1B1A17;
+  border-bottom: 2px solid #E6D5B8;
+  line-height: 80px;
+  font-size: 40px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+@media (min-width:850px) {
+  .header h1 {
+    font-size: 120px;
+  }
+}
+
+.header p {
+  color: #E6D5B8;
+  font-weight: 500;
+  letter-spacing: 8px;
+  margin-bottom: 40px;
+  margin-top: 0;
+  text-transform: uppercase;
+}
+
+.btn {
+  color: #fff;
+  padding: 10px 40px;
+  text-decoration: none;
+  transition: background .5s;
+}
+
+.code {
+  background: #483a1d;
+}
+
+.live {
+  background: #483a1d;
+  /* background: #039d2a; */
+}
+
+.video {
+  background: #483a1d;
+  /* background-color: rgb(232, 60, 60); */
+}
+
+.nav {
+  background: #1B1A17;
+  border-bottom: 2px solid #E6D5B8;
+  height: 80px;
+  width: 100%;
+}
+
+.nav ul {
+  height: 80px;
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.nav ul li {
+  color: #F0A500;
+  display: contents;
+  font-size: larger;
+  /* height: 80px; */
+  line-height: 80px;
+  list-style: none;
+  padding: 0 50px;
+  transition: background .5s;
+}
+
+.nav ul li a {
+  margin: 0 30px;
+}
+
+a {
+  text-decoration: none;
+  color: #F0A500;
+}
+
+.btn:hover,
+.nav ul li:hover {
+  /* background: rgb(220, 223, 196); */
+  /* color: #039d2a; */
+  font-size: 25px;
+  font-weight: 200;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: background .5s;
+}
+
+.main .container {
+  margin: 80px auto;
+  /* display: block; */
+  /* justify-content: center; */
+
+  /* margin: 220px; */
+
+}
+
+.main img {
+  float: left;
+  margin: 0px 80px 50px 0;
+  width: 225px;
+  height: 225px;
+  border: 2px double #e1b962;
+  border-radius: 50%;
+}
+
+.jumbotron {
+
+  background-size: cover;
+  height: 600px;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* .jumbotron .container {
+  position: relative;
+  top: 220px;
+}
+
+.jumbotron h2 {
+  color: #fff;
+  /* text-align: right; */
+/* }   */
+
+.jumbotron p {
+  color: #fff;
+  /* text-align: right; */
+}
+
+.jumbotron .btn {
+  margin: 10px 0 0;
+  /* float: right; */
+}
+
+*/ .footer {
+  background: #000;
+  height: 80px;
+  padding-bottom: 50px;
+}
+
+.footer p {
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  height: 80px;
+  line-height: 80px;
+  margin: 0;
+}
+
+@media (max-width: 500px) {
+  .header h1 {
+    font-size: 50px;
+    line-height: 64px;
+  }
+
+  .main,
+  .jumbotron {
+    padding: 0 30px;
+  }
+
+  .main img {
+    width: 100%;
+  }
+}
+
+.row .col img {
+  width: 150px;
+  /* You can set the dimensions to whatever you want */
+  height: 150px;
+  object-fit: cover;
+  /* margin: 0 0px; */
+}
+
+/* * {
+  box-sizing: border-box
+} */
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: .5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
+}
+
+.card {
+  background-color: #1B1A17;
+  color: #F0A500;
+}
+
+.card h4 {
+  color: #fed47a;
+}
+
+.more {
+  display: flex;
+  justify-content: center;
+}
+
+.more .container {
+  margin: 50px 0;
+}
+
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: #1B1A17;
+  /* padding: 50px; */
+  font-size: 20px;
+}
+
+.sticky button {
+  background-color: #1B1A17;
+  border: 2px solid wheat;
+  border-radius: 10px;
+}
